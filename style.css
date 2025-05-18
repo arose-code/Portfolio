@@ -44,6 +44,18 @@ li {
     color: #6030b1;
 }
 
+section:nth-child(even){
+    background-color: rgb(208, 247, 247);
+}
+
+.container{
+padding: 50px 0;    
+}
+
+.section__title{
+    margin-bottom: 20px;
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -147,5 +159,25 @@ nav {
  }
 
  .about-me__img{
+    width: 100%;
+ }
+
+ /* TECHNOLOGY STACK */
+
+ .html5 {
+    color: rgb(232, 91, 40);
+    width: 100%;
+    max-width: 100px;
+    width: 25%;
+ }
+
+ .language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .lanuage__list {
+    display: flex;
     width: 100%;
  }
