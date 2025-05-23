@@ -44,20 +44,20 @@ li {
     color: #6030b1;
 }
 
-section:nth-child(even){
+section:nth-child(even) {
     background-color: rgb(208, 247, 247);
 }
 
-.container{
+.container { 
 padding: 50px 0;    
 }
 
-.section__title{
+.section__title {
     margin-bottom: 20px;
 }
 
 /* NAVIGATION BAR */
-
+ 
 nav {
     height: 100px;
     width: 100%;
@@ -171,6 +171,15 @@ nav {
     width: 25%;
  }
 
+ .language__img {
+    width: 100%;
+    max-width: 100px;
+ }
+ 
+ .language {
+    width: 25%;
+ }
+
  .language__img--wrapper {
     display: flex;
     justify-content: center;
@@ -181,3 +190,4 @@ nav {
     display: flex;
     width: 100%;
  }
+
